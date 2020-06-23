@@ -75,7 +75,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="routekeymap" value="/**&#10;* Get the route key for the model.&#10;*&#10;* @return string&#10;*/&#10;public function getRouteKeyName()&#10;{&#10;    return 'hash';&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="routekeymap" value="/**&#10;* Get the route key for the model.&#10;*&#10;* @return string&#10;*/&#10;public function getRouteKeyName()&#10;{&#10;    return 'hash';&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
@@ -85,7 +85,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="modeldateformat" value="/**&#10; * The storage format of the model's date columns.&#10; *&#10; * @var string&#10; */&#10;protected $dateFormat = 'U';`" toReformat="false" toShortenFQNames="true">
+  <template name="modeldateformat" value="/**&#10; * The storage format of the model's date columns.&#10; *&#10; * @var string&#10; */&#10;protected $dateFormat = 'U';`" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
@@ -97,7 +97,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="castfile" value="&lt;?php&#10;&#10;namespace App\Casts;&#10;&#10;use Illuminate\Contracts\Database\Eloquent\CastsAttributes;&#10;&#10;class Json implements CastsAttributes&#10;{&#10;    /**&#10;     * Cast the given value.&#10;     *&#10;     * @param  \Illuminate\Database\Eloquent\Model  $model&#10;     * @param  string  $key&#10;     * @param  mixed  $value&#10;     * @param  array  $attributes&#10;     * @return array&#10;     */&#10;    public function get($model, $key, $value, $attributes)&#10;    {&#10;        return json_decode($value, true);&#10;    }&#10;&#10;    /**&#10;     * Prepare the given value for storage.&#10;     *&#10;     * @param  \Illuminate\Database\Eloquent\Model  $model&#10;     * @param  string  $key&#10;     * @param  array  $value&#10;     * @param  array  $attributes&#10;     * @return string&#10;     */&#10;    public function set($model, $key, $value, $attributes)&#10;    {&#10;        return json_encode($value);&#10;    }&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="castfile" value="&lt;?php&#10;&#10;namespace App\Casts;&#10;&#10;use Illuminate\Contracts\Database\Eloquent\CastsAttributes;&#10;&#10;class Json implements CastsAttributes&#10;{&#10;    /**&#10;     * Cast the given value.&#10;     *&#10;     * @param  \Illuminate\Database\Eloquent\Model  $model&#10;     * @param  string  $key&#10;     * @param  mixed  $value&#10;     * @param  array  $attributes&#10;     * @return array&#10;     */&#10;    public function get($model, $key, $value, $attributes)&#10;    {&#10;        return json_decode($value, true);&#10;    }&#10;&#10;    /**&#10;     * Prepare the given value for storage.&#10;     *&#10;     * @param  \Illuminate\Database\Eloquent\Model  $model&#10;     * @param  string  $key&#10;     * @param  array  $value&#10;     * @param  array  $attributes&#10;     * @return string&#10;     */&#10;    public function set($model, $key, $value, $attributes)&#10;    {&#10;        return json_encode($value);&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
