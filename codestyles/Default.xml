@@ -5,8 +5,15 @@
     <option name="PHPDOC_BLANK_LINE_BEFORE_TAGS" value="true" />
     <option name="PHPDOC_USE_FQCN" value="true" />
   </PHPCodeStyleSettings>
+  <codeStyleSettings language="Blade">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="PHP">
     <indentOptions>
+      <option name="TAB_SIZE" value="2" />
       <option name="USE_TAB_CHARACTER" value="true" />
     </indentOptions>
   </codeStyleSettings>
