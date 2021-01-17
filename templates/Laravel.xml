@@ -102,23 +102,25 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="laravelcollection" value="&lt;?php&#10;&#10;namespace $namespace$;&#10;&#10;use Illuminate\Http\Resources\Json\ResourceCollection;&#10;&#10;class $name$Collection extends ResourceCollection {&#10;&#10;    /**&#10;     * The resource that this resource collects.&#10;     *&#10;     * @var string&#10;     */&#10;    public $collects = $name$::class;&#10;&#10;    /**&#10;     * Transform the resource collection into an array.&#10;     *&#10;     * @param  \Illuminate\Http\Request&#10;     * @return array&#10;     */&#10;    public function toArray($request): array {&#10;        return [];&#10;    }" description="Laravel Collection" toReformat="false" toShortenFQNames="true">
+  <template name="laravelcollection" value="namespace $namespace$;&#10;&#10;use Illuminate\Http\Resources\Json\ResourceCollection;&#10;&#10;class $name$Collection extends ResourceCollection {&#10;&#10;    /**&#10;     * The resource that this resource collects.&#10;     *&#10;     * @var string&#10;     */&#10;    public $collects = $name$::class;&#10;&#10;    /**&#10;     * Transform the resource collection into an array.&#10;     *&#10;     * @param  \Illuminate\Http\Request&#10;     * @return array&#10;     */&#10;    public function toArray($request): array {&#10;        return [];&#10;    }" description="Laravel Collection" toReformat="false" toShortenFQNames="true">
     <variable name="namespace" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="laraveltransformer" value="&lt;?php&#10;&#10;namespace $namespace$;&#10;&#10;use Illuminate\Http\Resources\Json\JsonResource;&#10;&#10;class $name$Transformer extends JsonResource {&#10;    &#10;    /**&#10;     * @param $request&#10;     *&#10;     * @return array&#10;     */&#10;    public function toArray($request): array {&#10;        return [];&#10;    }&#10;}" description="Laraveltransformer" toReformat="false" toShortenFQNames="true">
+  <template name="laraveltransformer" value="namespace $namespace$;&#10;&#10;use Illuminate\Http\Resources\Json\JsonResource;&#10;&#10;class $name$Transformer extends JsonResource {&#10;    &#10;    /**&#10;     * @param $request&#10;     *&#10;     * @return array&#10;     */&#10;    public function toArray($request): array {&#10;        return [];&#10;    }&#10;}" description="Laraveltransformer" toReformat="false" toShortenFQNames="true">
     <variable name="namespace" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="laravelpolicy" value="&lt;?php&#10;&#10;namespace $namespace$;&#10;&#10;use Illuminate\Auth\Access\HandlesAuthorization;&#10;use Illuminate\Support\Facades\Config;&#10;&#10;class $name$tPolicy {&#10;&#10;    use HandlesAuthorization;&#10;&#10;    /**&#10;     * @param $$model$&#10;     * @param $ability&#10;     *&#10;     * @return bool&#10;     */&#10;    public function before($$needle$, $ability): bool {&#10;        &#10;    }&#10;&#10;    /**&#10;     * @param $$needle$&#10;     * @param $$haystack$&#10;     *&#10;     * @return bool&#10;     */&#10;    public function update(User $$needle$, $Haystack$ $$haystack$): bool {&#10;        return $$needle$-&gt;id === $$haystack$-&gt;user_id;&#10;    }&#10;&#10;    /**&#10;     * @param $$needle$&#10;     * @param $$haystack$&#10;     *&#10;     * @return bool&#10;     */&#10;    public function destroy(User $$needle$, $Haystack$ $$haystack$): bool {&#10;        return $$needle$-&gt;id === $$haystack$-&gt;user_id;&#10;    }&#10;}" description="Laravel Policy" toReformat="false" toShortenFQNames="true">
+  <template name="laravelpolicy" value="namespace $namespace$;&#10;&#10;use Illuminate\Auth\Access\HandlesAuthorization;&#10;use Illuminate\Support\Facades\Config;&#10;&#10;class $name$Policy {&#10;&#10;    use HandlesAuthorization;&#10;&#10;    /**&#10;     * @param $$$needle$&#10;     * @param $ability&#10;     *&#10;     * @return bool&#10;     */&#10;    public function before($$$needle$, $ability): bool {&#10;        &#10;    }&#10;&#10;    /**&#10;     * @param $$$needle$&#10;     * @param $$$haystack$&#10;     *&#10;     * @return bool&#10;     */&#10;    public function update(User $$$needle$, $Haystack$ $$$haystack$): bool {&#10;        return $$$needle$-&gt;id === $$$haystack$-&gt;user_id;&#10;    }&#10;&#10;    /**&#10;     * @param $$$needle$&#10;     * @param $$$haystack$&#10;     *&#10;     * @return bool&#10;     */&#10;    public function destroy(User $$$needle$, $Haystack$ $$$haystack$): bool {&#10;        return $$$needle$-&gt;id === $$$haystack$-&gt;user_id;&#10;    }&#10;}" description="Laravel Policy" toReformat="false" toShortenFQNames="true">
     <variable name="namespace" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="needle" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="haystack" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="Haystack" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
