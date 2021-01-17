@@ -116,12 +116,13 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="laravelpolicy" value="namespace $namespace$;&#10;&#10;use Illuminate\Auth\Access\HandlesAuthorization;&#10;use Illuminate\Support\Facades\Config;&#10;&#10;class $name$Policy {&#10;&#10;    use HandlesAuthorization;&#10;&#10;    /**&#10;     * @param $$$needle$&#10;     * @param $ability&#10;     *&#10;     * @return bool&#10;     */&#10;    public function before($$$needle$, $ability): bool {&#10;        &#10;    }&#10;&#10;    /**&#10;     * @param $$$needle$&#10;     * @param $$$haystack$&#10;     *&#10;     * @return bool&#10;     */&#10;    public function update(User $$$needle$, $Haystack$ $$$haystack$): bool {&#10;        return $$$needle$-&gt;id === $$$haystack$-&gt;user_id;&#10;    }&#10;&#10;    /**&#10;     * @param $$$needle$&#10;     * @param $$$haystack$&#10;     *&#10;     * @return bool&#10;     */&#10;    public function destroy(User $$$needle$, $Haystack$ $$$haystack$): bool {&#10;        return $$$needle$-&gt;id === $$$haystack$-&gt;user_id;&#10;    }&#10;}" description="Laravel Policy" toReformat="false" toShortenFQNames="true">
+  <template name="laravelpolicy" value="namespace $namespace$;&#10;&#10;use Illuminate\Auth\Access\HandlesAuthorization;&#10;use Illuminate\Support\Facades\Config;&#10;&#10;class $name$Policy {&#10;&#10;    use HandlesAuthorization;&#10;&#10;    /**&#10;     * @param $$$needle$&#10;     * @param $ability&#10;     *&#10;     * @return bool&#10;     */&#10;    public function before($$$needle$, $ability): bool {&#10;        &#10;    }&#10;&#10;    /**&#10;     * @param $$$needle$&#10;     * @param $$$haystack$&#10;     *&#10;     * @return bool&#10;     */&#10;    public function update($needlemodel$ $$$needle$, $haystackmodel$ $$$haystack$): bool {&#10;        return $$$needle$-&gt;id === $$$haystack$-&gt;user_id;&#10;    }&#10;&#10;    /**&#10;     * @param $$$needle$&#10;     * @param $$$haystack$&#10;     *&#10;     * @return bool&#10;     */&#10;    public function destroy($needlemodel$ $$$needle$, $haystackmodel$ $$$haystack$): bool {&#10;        return $$$needle$-&gt;id === $$$haystack$-&gt;user_id;&#10;    }&#10;}" description="Laravel Policy" toReformat="true" toShortenFQNames="true">
     <variable name="namespace" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="needle" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="haystack" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="Haystack" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="needlemodel" expression="capitalize($needle$)" defaultValue="" alwaysStopAt="true" />
+    <variable name="haystackmodel" expression="capitalize($haystack$)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
