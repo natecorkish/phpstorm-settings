@@ -68,29 +68,29 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="morphmap" value="Relation::morphMap([&#10;    &quot;$name$&quot; =&gt; $class$,&#10;]);" description="morphmap" toReformat="false" toShortenFQNames="true">
+  <template name="morphmap" value="Relation::morphMap([&#10;    '$name$' =&gt; $class$,&#10;]);" description="morphmap" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="routekeymap" value="/**&#10;* Get the route key for the model.&#10;*&#10;* @return string&#10;*/&#10;public function getRouteKeyName()&#10;{&#10;    return &quot;hash&quot;;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="routekeymap" value="/**&#10;* Get the route key for the model.&#10;*&#10;* @return string&#10;*/&#10;public function getRouteKeyName()&#10;{&#10;    return 'hash';&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="modeldates" value="/**&#10; * The attributes that should be mutated to dates.&#10; *&#10; * @var array&#10; */&#10;protected $dates = [&#10;    &quot;seen_at&quot;,&#10;];" description="modeldates" toReformat="false" toShortenFQNames="true">
+  <template name="modeldates" value="/**&#10; * The attributes that should be mutated to dates.&#10; *&#10; * @var array&#10; */&#10;protected $dates = [&#10;    'seen_at',&#10;];" description="modeldates" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="modeldateformat" value="/**&#10; * The storage format of the model's date columns.&#10; *&#10; * @var string&#10; */&#10;protected $dateFormat = &quot;U&quot;;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="modeldateformat" value="/**&#10; * The storage format of the model's date columns.&#10; *&#10; * @var string&#10; */&#10;protected $dateFormat = 'U';" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="modelcasts" value="/**&#10; * The attributes that should be cast.&#10; *&#10; * @var array&#10; */&#10;protected $casts = [&#10;    &quot;$name$&quot; =&gt; &quot;$type$&quot;,&#10;];" description="modelcasts" toReformat="false" toShortenFQNames="true">
+  <template name="modelcasts" value="/**&#10; * The attributes that should be cast.&#10; *&#10; * @var array&#10; */&#10;protected $casts = [&#10;    '$name$' =&gt; '$type$',&#10;];" description="modelcasts" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -127,13 +127,13 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="modeltable" value="/**&#10; * The table associated with the model.&#10; *&#10; * @var string&#10; */&#10;protected $table = &quot;$name$&quot;;" description="Model table" toReformat="false" toShortenFQNames="true">
+  <template name="modeltable" value="/**&#10; * The table associated with the model.&#10; *&#10; * @var string&#10; */&#10;protected $table = '$name$';" description="Model table" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="modelprimarykey" value="/**&#10; * The primary key associated with the table.&#10; *&#10; * @var string&#10; */&#10;protected $primaryKey = &quot;$name$&quot;;" description="Model Primary Key" toReformat="false" toShortenFQNames="true">
+  <template name="modelprimarykey" value="/**&#10; * The primary key associated with the table.&#10; *&#10; * @var string&#10; */&#10;protected $primaryKey = '$name$';" description="Model Primary Key" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
@@ -144,34 +144,34 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="modelkeytype" value="/**&#10; * The data type of the auto-incrementing ID.&#10; *&#10; * @var string&#10; */&#10;protected $keyType = &quot;string&quot;;" description="Model Keytype" toReformat="false" toShortenFQNames="true">
+  <template name="modelkeytype" value="/**&#10; * The data type of the auto-incrementing ID.&#10; *&#10; * @var string&#10; */&#10;protected $keyType = 'string';" description="Model Keytype" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="modeltimestamps" value="/**&#10; * The data type of the auto-incrementing ID.&#10; *&#10; * @var string&#10; */&#10;protected $keyType = &quot;string&quot;;" description="Model timestamps" toReformat="false" toShortenFQNames="true">
+  <template name="modeltimestamps" value="/**&#10; * The data type of the auto-incrementing ID.&#10; *&#10; * @var string&#10; */&#10;protected $keyType = 'string';" description="Model timestamps" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="modelcreatedupdated" value="/**&#10; * These are the collum names for timestamps&#10; *&#10; * @return names&#10; */&#10;const CREATED_AT = &quot;creation_date&quot;;&#10;const UPDATED_AT = &quot;updated_date&quot;;" description="Model created and updated collumns" toReformat="false" toShortenFQNames="true">
+  <template name="modelcreatedupdated" value="/**&#10; * These are the collum names for timestamps&#10; *&#10; * @return names&#10; */&#10;const CREATED_AT = 'creation_date';&#10;const UPDATED_AT = 'updated_date';" description="Model created and updated collumns" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="modelconnection" value="/**&#10; * The database connection that should be used by the model.&#10; *&#10; * @var string&#10; */&#10;protected $connection = &quot;sqlite&quot;;" description="Model Connection" toReformat="false" toShortenFQNames="true">
+  <template name="modelconnection" value="/**&#10; * The database connection that should be used by the model.&#10; *&#10; * @var string&#10; */&#10;protected $connection = 'sqlite';" description="Model Connection" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="modelattributes" value="/**&#10; * The model's default values for attributes.&#10; *&#10; * @var array&#10; */&#10;protected $attributes = [&#10;    &quot;$name$&quot; =&gt; $value$,&#10;];" description="Model Attributes (default values)" toReformat="false" toShortenFQNames="true">
+  <template name="modelattributes" value="/**&#10; * The model's default values for attributes.&#10; *&#10; * @var array&#10; */&#10;protected $attributes = [&#10;    '$name$' =&gt; $value$,&#10;];" description="Model Attributes (default values)" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="modelfillable" value="/**&#10; * The attributes that are mass assignable.&#10; *&#10; * @var array&#10; */&#10;protected $fillable = [&#10;    &quot;$name$&quot;,&#10;];" description="Model fillable" toReformat="false" toShortenFQNames="true">
+  <template name="modelfillable" value="/**&#10; * The attributes that are mass assignable.&#10; *&#10; * @var array&#10; */&#10;protected $fillable = [&#10;    '$name$',&#10;];" description="Model fillable" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
@@ -190,7 +190,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="modelevents" value="/**&#10; * The event map for the model.&#10; *&#10; * @var array&#10; */&#10;protected $dispatchesEvents = [&#10;    &quot;$event$&quot; =&gt; $class$,&#10;];" description="Model events" toReformat="false" toShortenFQNames="true">
+  <template name="modelevents" value="/**&#10; * The event map for the model.&#10; *&#10; * @var array&#10; */&#10;protected $dispatchesEvents = [&#10;    '$event$' =&gt; $class$,&#10;];" description="Model events" toReformat="false" toShortenFQNames="true">
     <variable name="event" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
