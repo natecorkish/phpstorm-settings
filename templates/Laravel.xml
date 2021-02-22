@@ -27,7 +27,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="hasmanythrough" value="/**&#10; * @return \Illuminate\Database\Eloquent\Relations\HasOneThrough&#10; */&#10;public function $name$(): HasOneThrough &#10;{&#10;    return $this-&gt;hasOneThrough($class$);&#10;}" description="hasmanythrough" toReformat="false" toShortenFQNames="true">
+  <template name="hasmanythrough" value="/**&#10; * @return \Illuminate\Database\Eloquent\Relations\HasManyThrough&#10; */&#10;public function $name$(): HasManyThrough &#10;{&#10;    return $this-&gt;hasManyThrough($class$);&#10;}" description="hasmanythrough" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -196,5 +196,9 @@
     <context>
       <option name="PHP" value="true" />
     </context>
+  </template>
+  <template name="hasonethrough" value="/**&#10; * @return \Illuminate\Database\Eloquent\Relations\HasOneThrough&#10; */&#10;public function $name$(): HasOneThrough &#10;{&#10;    return $this-&gt;hasOneThrough($class$);&#10;}" description="hasonethrough" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
   </template>
 </templateSet>
