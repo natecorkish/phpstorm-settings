@@ -1,9 +1,0 @@
-<templateSet group="PHP">
-  <template name="comment" value="/*------------------------------------------------------------&#10; * $comment1$&#10; * $comment2$&#10; * ----------------------------------------------------------- &#10; */" description="Nice comment" toReformat="false" toShortenFQNames="true">
-    <variable name="comment1" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="comment2" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="PHP" value="true" />
-    </context>
-  </template>
-</templateSet>
