@@ -8,7 +8,7 @@
       <option name="Vue" value="true" />
     </context>
   </template>
-  <template name="pcomment" value="/*------------------------------------------------------------&#10; * $comment1$&#10; * $comment2$&#10; * ----------------------------------------------------------- &#10; */" description="PHP comment" toReformat="false" toShortenFQNames="true">
+  <template name="pcomment" value="/**-----------------------------------------------------------&#10; * $comment1$&#10; * $comment2$&#10; * ----------------------------------------------------------- &#10; */" description="PHP comment" toReformat="false" toShortenFQNames="true">
     <variable name="comment1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="comment2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
