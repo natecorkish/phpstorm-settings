@@ -201,4 +201,14 @@
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
   </template>
+  <template name="scope" value="/**-----------------------------------------------------------&#10; * Scope a query to $description$&#10; *&#10; * @param \Illuminate\Database\Eloquent\Builder $builder&#10; * @param $pararm$&#10; * @return \Illuminate\Database\Eloquent\Builder&#10; * -----------------------------------------------------------&#10; */&#10;public function scope$name$(Builder $builder, $param$): Builder&#10;{&#10;    return $builder-&gt;$query$;&#10;}" description="scope" toReformat="false" toShortenFQNames="true">
+    <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="pararm" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="query" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
