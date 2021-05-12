@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="PHP">
+        <added pattern="\Illuminate\Database\Eloquent\Concerns\HasRelationships.hasManyThrough(related,through,firstKey,secondKey,localKey,secondLocalKey)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>

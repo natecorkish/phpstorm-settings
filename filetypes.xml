@@ -1,0 +1,16 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
+      <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <mapping ext="sqlite" type="PLAIN_TEXT" />
+      <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
+      <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping pattern=".env" approved="true" type="PLAIN_TEXT" />
+      <mapping pattern="Procfile" type="AUTO_DETECTED" />
+      <mapping pattern="vTmwVFks4Wr58l6KJc1f4x3-VbpaxJm3azwUdrETzow" type="AUTO_DETECTED" />
+    </extensionMap>
+  </component>
+</application>
