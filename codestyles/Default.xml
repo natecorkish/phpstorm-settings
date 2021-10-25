@@ -1,0 +1,21 @@
+<code_scheme name="Default" version="173">
+  <HTMLCodeStyleSettings>
+    <option name="HTML_UNIFORM_INDENT" value="true" />
+    <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
+    <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="" />
+  </HTMLCodeStyleSettings>
+  <PHPCodeStyleSettings>
+    <option name="ALIGN_KEY_VALUE_PAIRS" value="true" />
+    <option name="PHPDOC_USE_FQCN" value="true" />
+    <option name="NAMESPACE_BRACE_STYLE" value="2" />
+  </PHPCodeStyleSettings>
+  <codeStyleSettings language="HTML">
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="PHP">
+    <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
+    <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
+  </codeStyleSettings>
+</code_scheme>
