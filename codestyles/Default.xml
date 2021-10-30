@@ -6,6 +6,7 @@
   </HTMLCodeStyleSettings>
   <PHPCodeStyleSettings>
     <option name="ALIGN_KEY_VALUE_PAIRS" value="true" />
+    <option name="ALIGN_MATCH_ARM_BODIES" value="true" />
     <option name="PHPDOC_USE_FQCN" value="true" />
     <option name="NAMESPACE_BRACE_STYLE" value="2" />
   </PHPCodeStyleSettings>
