@@ -1,5 +1,5 @@
 <templateSet group="Custom">
-  <template name="hcomment" value="&lt;!--&#10; ! ------------------------------------------------------------&#10; ! $comment$&#10; ! $comment2$&#10; ! ------------------------------------------------------------&#10; !--&gt;" description="html/blade commment" toReformat="false" toShortenFQNames="true">
+  <template name="hcomment" value="&lt;!--&#10; ! ------------------------------&#10; ! $comment$&#10; ! $comment2$&#10; ! ------------------------------&#10; !--&gt;" description="html/blade commment" toReformat="false" toShortenFQNames="true">
     <variable name="comment" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="comment2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
